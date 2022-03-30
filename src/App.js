@@ -109,7 +109,7 @@ function App() {
             <a className='no-style' href='#content-5'>TEAM</a> 
             </li>
           </ul>
-          <div>
+          <div className='social'>
             <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_f1574e7c6a09409584dcf1ad1c23b1cc~mv2.png"/>
             <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_e9260e51d60a41c19ca484cbf270e7cc~mv2.png"/>
             <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_fc508a27242e474ea7e0972c822ccc9e~mv2.png"/>
@@ -198,10 +198,13 @@ function App() {
 
 <div className='content-6 px-5' id='content-6'>
 <h4 className='pt-5 pb-2'>© 2022 XXX LLC  TERMS & CONDITIONS</h4>
-<div className='pb-5'>
-            <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_f1574e7c6a09409584dcf1ad1c23b1cc~mv2.png"/>
+<div className='pb-5 w-100 d-flex align-items-center justify-content-center'>
+  <div className='social'>
+  <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_f1574e7c6a09409584dcf1ad1c23b1cc~mv2.png"/>
             <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_e9260e51d60a41c19ca484cbf270e7cc~mv2.png"/>
             <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_fc508a27242e474ea7e0972c822ccc9e~mv2.png"/>
+  </div>
+
           </div>
 </div>
    
