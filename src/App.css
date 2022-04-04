@@ -54,6 +54,8 @@ body{
 	position: absolute;
 	bottom:0;
 	right: 150px;
+	z-index: 0;
+	pointer-events: none;
 }
 .mint-button{
 	width: 150px;
@@ -88,7 +90,6 @@ body{
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	border:5px solid black;
 	margin:10px;
 }
 .profile-list{
@@ -144,7 +145,13 @@ body{
 .no-style:hover{
 	color:rgb(168, 0, 0);
 }
-
+@media screen and (max-width: 1500px) {
+	.content-image{
+		opacity: 0.1;
+		z-index: 0;
+		pointer-events: none;
+	}
+}
 @media screen and (max-width: 1000px) {
 	.navbar-main{
 		height: 200px;

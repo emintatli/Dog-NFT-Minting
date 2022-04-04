@@ -94,7 +94,7 @@ function App() {
       <div className="navbar-main">
       <div className="container-md">
         <div className="navbar">
-          <img width={65} src="/logo.png"/>
+          <img width={300} src="/logo.png"/>
           <ul className="navmenu">
             <li className="cursor-pointer">
               <a className='no-style' href='#content-2'>ABOUT</a>
@@ -119,16 +119,20 @@ function App() {
 </div>
 <div className="content-1" id='content-1'>
   <div className="content-table-1">
-  <h1>TEXT BLA BLA</h1>
+  <h1>CryptoSesame NFT Club</h1>
+  <h4>10,000 Golden Retrievers unleashed on the blockchain.</h4>
+  <h4>Yes, we’re the ones who let them out.</h4>
   <h3>{mintData&&mintData.totalMint}/{mintData&&mintData.maxMint}</h3>
   {walletAddress?<div onClick={mintHandler} className="mint-button">MINT</div>:<div onClick={walletConnect} className="mint-button">CONNECT</div>}
   </div>
-  <img className="content-image" width={250} src="/main-n.png"/>
+  <img className="content-image" width={300} src="/main-n.png"/>
 
 </div>
 <div className='content-2 px-5' id='content-2'>
-  <h1 className='mb-3 pt-4'>ABOUT</h1>
-  <p>Dolor eu non laborum minim aute cillum proident quis laboris ut. Mollit mollit aliquip qui culpa est est dolor non consectetur Lorem voluptate nulla. Elit elit pariatur occaecat officia aute sunt magna id cillum aliquip sit dolore. Consectetur aute pariatur irure sit eu qui mollit laboris ipsum tempor. Aliquip id adipisicing ipsum ea ullamco laboris. Nulla adipisicing veniam id consectetur minim exercitation commodo qui deserunt quis sint fugiat consectetur do.</p>
+  <h1 className='mb-3 pt-4'>ABOUT US</h1>
+  <p>CryptoSesame is a unique digital collection of Golden Retriever NFTs lying on Polygon Blockchain. Our goal is to spread Animal Rights awareness and bring people together through community, creativity, and adorable art!
+
+As a holder, you'll have access to a community-funded DAO (Sesame Jar), exclusive events, early access to merch, giveaways, and much more!</p>
 <div className='nft-samples pb-5'>
   <img className='nft-sample' src="/1.jpg"/>
   <img className='nft-sample' src="/2.jpg"/>
@@ -140,43 +144,48 @@ function App() {
 <h1 className='mb-3 pt-4'>ROADMAP</h1>
 <ul className='list'>
   <li className='mt-5'>
-    Occaecat mollit sit non irure laborum incididunt dolore velit amet. Nostrud sunt occaecat voluptate minim officia pariatur laboris. Amet minim aliquip non nostrud velit non nulla nostrud et id magna sit pariatur qui. Qui sint cillum cupidatat nisi. Ipsum officia ea elit ut amet anim cillum tempor reprehenderit anim do.
+  1. Establish Community Funded DAO. 20% of all secondary sales will be deposited into a community wallet called The Sesame Jar. Holders will be able to propose and vote on things that will affect the whole community!
   </li>
   <li className='mt-5'>
-    Consequat est aute exercitation laboris consequat minim do irure do eu. Quis pariatur irure et pariatur laborum tempor. Reprehenderit Lorem mollit enim ea pariatur id.
+  2. Charitable Donations. Based on the DAO, we will donate money to charities and organizations that spread Animal Rights awareness
   </li>
   <li className='mt-5'>
-    Ad in officia culpa mollit consectetur duis aliquip amet in ipsum enim aliqua. Magna Lorem nostrud amet exercitation consequat eiusmod velit culpa qui commodo elit est. Anim esse ea consequat adipisicing veniam velit eu sit aliquip.
+  3. Access to future collaborations and WL opportunities. Holders will receive exclusive benefits (WL spots, alpha, etc.) to GEN 2 and other projects we decide to collaborate with!
   </li>
   <li className='mt-5'>
-    Ad in officia culpa mollit consectetur duis aliquip amet in ipsum enim aliqua. Magna Lorem nostrud amet exercitation consequat eiusmod velit culpa qui commodo elit est. Anim esse ea consequat adipisicing veniam velit eu sit aliquip.
+  4. Exclusive Giveaways + Future Airdrops. Holders will receive airdrops and access to an alpha channel where exclusive giveaways will be hosted.
   </li>
 </ul>
 <div className='line mt-3'></div>
-<p className='mt-3'>Pariatur occaecat quis excepteur laborum dolore deserunt esse ex nostrud officia laboris esse. Aliqua est esse labore consectetur ad reprehenderit. Consectetur non ipsum ut mollit minim reprehenderit id occaecat. Cupidatat officia duis minim id qui ea consectetur officia. Tempor ad ullamco cillum in Lorem esse dolor aliquip. Anim sint ad dolore sit in incididunt culpa sunt pariatur laboris cillum.</p>
+<p className='mt-3'>This is a long-term and incredibly fun project that will include community giveaways, live events, collaborations with big brands, Metaverse, and much more! The future of Crypto Sesame is in the hands of the owners — the community will determine the future.</p>
 </div>  
 
 <div className='content-4 px-5 pb-5' id='content-4'>
 <h1 className='mb-3 pt-4'>FAQ</h1>
 <div className='card-main mb-5'>
   <h4>What is the supply & mint price?</h4>
-  <p>Ea adipisicing aliqua adipisicing enim duis adipisicing minim ad. Eiusmod consequat mollit deserunt eu duis deserunt quis dolore sint occaecat laborum culpa consequat. Laboris labore irure proident magna ex dolore officia eu proident ex cupidatat deserunt cupidatat. Excepteur ea exercitation commodo deserunt qui irure ad pariatur aliqua qui amet do ullamco esse.</p>
+  <p>There will be a total of 10,000 CryptoSesame available.</p>
+  <p>- Price TBD on Discord</p>
 </div>
 <div className='card-main mb-5'>
-  <h4>What is the supply & mint price?</h4>
-  <p>Ea adipisicing aliqua adipisicing enim duis adipisicing minim ad. Eiusmod consequat mollit deserunt eu duis deserunt quis dolore sint occaecat laborum culpa consequat. Laboris labore irure proident magna ex dolore officia eu proident ex cupidatat deserunt cupidatat. Excepteur ea exercitation commodo deserunt qui irure ad pariatur aliqua qui amet do ullamco esse.</p>
+  <h4>When is the launch date?</h4>
+  <p>Allowlist - TBD on Discord</p>
+  <p>Public Sale - TBD on Discord</p>
 </div>
 <div className='card-main mb-5'>
-  <h4>What is the supply & mint price?</h4>
-  <p>Ea adipisicing aliqua adipisicing enim duis adipisicing minim ad. Eiusmod consequat mollit deserunt eu duis deserunt quis dolore sint occaecat laborum culpa consequat. Laboris labore irure proident magna ex dolore officia eu proident ex cupidatat deserunt cupidatat. Excepteur ea exercitation commodo deserunt qui irure ad pariatur aliqua qui amet do ullamco esse.</p>
+  <h4>What is the utility?</h4>
+  <p>Holders of Crypto Sesame will have an exciting piece of art, plus access to our community-funded DAO, exclusive giveaways, contests, priority in future collections, and more!</p>
 </div>
 <div className='card-main mb-5'>
-  <h4>What is the supply & mint price?</h4>
-  <p>Ea adipisicing aliqua adipisicing enim duis adipisicing minim ad. Eiusmod consequat mollit deserunt eu duis deserunt quis dolore sint occaecat laborum culpa consequat. Laboris labore irure proident magna ex dolore officia eu proident ex cupidatat deserunt cupidatat. Excepteur ea exercitation commodo deserunt qui irure ad pariatur aliqua qui amet do ullamco esse.</p>
+  <h4>What are NFTs?</h4>
+  <p>NFT stands for “non-fungible tokens” which are unique digital items that are stored and encrypted on the blockchain that people can buy, own, and trade. NFTs can simply be digital art but can have various benefits. They can be treated like membership cards where holders get exclusive access to things like websites, events, merchandise, and more.</p>
 </div>
 <div className='card-main'>
-  <h4>What is the supply & mint price?</h4>
-  <p>Ea adipisicing aliqua adipisicing enim duis adipisicing minim ad. Eiusmod consequat mollit deserunt eu duis deserunt quis dolore sint occaecat laborum culpa consequat. Laboris labore irure proident magna ex dolore officia eu proident ex cupidatat deserunt cupidatat. Excepteur ea exercitation commodo deserunt qui irure ad pariatur aliqua qui amet do ullamco esse.</p>
+  <h4>How do I buy a Crypto Sesame NFT?</h4>
+  <p>1. Sign up for Metamask Wallet and download the extension on your internet browser or mobile device.</p>
+  <p>2. Make sure you are connected to Polygon Network</p>
+  <p>3. Click on the “mint” button and you will be prompted to sign for your transaction. Please do not adjust this to ensure the transaction completes.</p>
+  <p>4. Once you have made your purchase, your CryptoSesame NFTs will appear in your wallet and on OpenSea!</p>
 </div>
 </div>
 
@@ -184,20 +193,30 @@ function App() {
   <h1 className='mb-3 pt-4'>TEAM</h1>
   <div className='profile-list'>
   <div className='profile'>
-  <img className='profile-sample' src="/3.jpg"/>
-  <h4>NICKNAME</h4>
-  Founder
+  <img className='profile-sample' src="/t1.jpg"/>
+  <h4>Nami</h4>
+  Ex-Twitter/ CEO
   </div>
   <div className='profile'>
-  <img className='profile-sample' src="/4.jpg"/>
-  <h4>NICKNAME</h4>
-  Founder
+  <img className='profile-sample' src="/t2.jpg"/>
+  <h4>Geummy</h4>
+  NFT Collector
+  </div>
+  <div className='profile'>
+  <img className='profile-sample' src="/t3.jpg"/>
+  <h4>Sherpa</h4>
+  Creator
+  </div>
+  <div className='profile'>
+  <img className='profile-sample' src="/t4.jpg"/>
+  <h4>BB</h4>
+  Developer
   </div>
   </div>
 </div>
 
 <div className='content-6 px-5' id='content-6'>
-<h4 className='pt-5 pb-2'>© 2022 XXX LLC  TERMS & CONDITIONS</h4>
+<h4 className='pt-5 pb-2'>© 2022 Crypto Sesame  TERMS & CONDITIONS</h4>
 <div className='pb-5 w-100 d-flex align-items-center justify-content-center'>
   <div className='social'>
   <img className="m-2" width={40} src="https://static.wixstatic.com/media/aed4d1_f1574e7c6a09409584dcf1ad1c23b1cc~mv2.png"/>
